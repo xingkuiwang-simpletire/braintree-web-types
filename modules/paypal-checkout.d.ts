@@ -22,9 +22,9 @@ export interface PayPalCheckoutCreatePaymentOptions {
 }
 
 export interface PayPalCheckoutTokenizationOptions {
-  billingToken?: string | undefined;
-  payerID: string;
-  paymentID?: string | undefined;
+  billingToken?: string | null;
+  payerID?: string | null;
+  paymentID?: string | null;
 }
 
 export interface PayPalCheckoutLoadPayPalSDKOptions {
