@@ -11,7 +11,7 @@ import { ApplePay, ApplePaySession, ApplePayStatusCodes, ApplePayPayload } from 
 import { Client, CreditCardInfo } from './modules/client';
 import { DataCollector } from './modules/data-collector';
 import { GooglePayment, GooglePaymentTokenizePayload } from './modules/google-payment';
-import { HostedFields, HostedFieldFieldOptions, HostedFieldsTokenizePayload, HostedFieldsStateObject } from './modules/hosted-fields';
+import { HostedFields, HostedFieldsEvent, HostedFieldFieldOptions, HostedFieldsTokenizePayload, HostedFieldsStateObject } from './modules/hosted-fields';
 import { PayPal, PayPalTokenizePayload } from './modules/paypal';
 import { PayPalCheckout, PayPalCheckoutCreatePaymentOptions } from './modules/paypal-checkout';
 import { ThreeDSecure, ThreeDSecureVerifyPayload } from './modules/three-d-secure';
