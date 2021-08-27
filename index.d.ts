@@ -41,7 +41,7 @@ export {
   Client, CreditCardInfo,
   DataCollector,
   GooglePayment, GooglePaymentTokenizePayload,
-  HostedFields, HostedFieldFieldOptions, HostedFieldsTokenizePayload, HostedFieldsStateObject,
+  HostedFields, HostedFieldsEvent, HostedFieldFieldOptions, HostedFieldsTokenizePayload, HostedFieldsStateObject,
   PayPal, PayPalTokenizePayload,
   PayPalCheckout, PayPalCheckoutCreatePaymentOptions,
   ThreeDSecure, ThreeDSecureVerifyPayload,
