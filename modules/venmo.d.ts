@@ -25,6 +25,7 @@ export interface Venmo {
         client?: Client | undefined;
         authorization?: string | undefined;
         allowNewBrowserTab?: boolean | undefined;
+        allowDesktop?: boolean | undefined;
         ignoreHistoryChanges?: boolean | undefined;
         profileId?: string | undefined;
         deepLinkReturnUrl?: string | undefined;
@@ -34,6 +35,7 @@ export interface Venmo {
             client?: Client | undefined;
             authorization?: string | undefined;
             allowNewBrowserTab?: boolean | undefined;
+            allowDesktop?: boolean | undefined;
             ignoreHistoryChanges?: boolean | undefined;
             profileId?: string | undefined;
             deepLinkReturnUrl?: string | undefined;
