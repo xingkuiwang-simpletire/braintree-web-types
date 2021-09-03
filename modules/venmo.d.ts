@@ -27,6 +27,7 @@ export interface Venmo {
         allowNewBrowserTab?: boolean | undefined;
         allowDesktop?: boolean | undefined;
         ignoreHistoryChanges?: boolean | undefined;
+        paymentMethodUsage?: 'multi_use' | 'single_use' | undefined;
         profileId?: string | undefined;
         deepLinkReturnUrl?: string | undefined;
     }): Promise<Venmo>;
@@ -37,6 +38,7 @@ export interface Venmo {
             allowNewBrowserTab?: boolean | undefined;
             allowDesktop?: boolean | undefined;
             ignoreHistoryChanges?: boolean | undefined;
+            paymentMethodUsage?: 'multi_use' | 'single_use' | undefined;
             profileId?: string | undefined;
             deepLinkReturnUrl?: string | undefined;
         },
