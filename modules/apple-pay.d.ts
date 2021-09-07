@@ -32,10 +32,10 @@ export interface ApplePayPaymentRequest {
         label: string;
         amount: string;
     };
-    countryCode: string;
-    currencyCode: string;
-    supportedNetworks: string[];
-    merchantCapabilities: string[];
+    countryCode?: string;
+    currencyCode?: string;
+    supportedNetworks?: string[];
+    merchantCapabilities?: string[];
 
     billingContact?: any;
     shippingContact?: any;

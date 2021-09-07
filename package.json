@@ -1,6 +1,6 @@
 {
   "name": "@types/braintree-web",
-  "version": "3.75.8",
+  "version": "3.75.9",
   "description": "Patched typeScript definitions for Braintree-web",
   "homepage": "https://github.com/xingkuiwang-simpletire/braintree-web-types",
   "license": "MIT",
