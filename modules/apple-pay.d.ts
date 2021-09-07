@@ -35,7 +35,7 @@ export interface ApplePayPaymentRequest {
     countryCode: string;
     currencyCode: string;
     supportedNetworks: string[];
-    merchantCapabilities: string[];
+    merchantCapabilities: ApplePayMerchantCapability[];
 
     billingContact?: any;
     shippingContact?: any;

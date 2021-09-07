@@ -1,6 +1,6 @@
 {
   "name": "@types/braintree-web",
-  "version": "3.75.10",
+  "version": "3.75.11",
   "description": "Patched typeScript definitions for Braintree-web",
   "homepage": "https://github.com/xingkuiwang-simpletire/braintree-web-types",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "url": "https://github.com/xingkuiwang-simpletire/braintree-web-types.git"
   },
   "dependencies": {
+    "@types/applepayjs": "^3.0.2",
     "@types/googlepay": "*",
     "@types/paypal-js": "https://github.com/xingkuiwang-simpletire/paypal-js-types"
   }
