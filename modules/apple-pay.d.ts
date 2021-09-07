@@ -32,10 +32,10 @@ export interface ApplePayPaymentRequest {
         label: string;
         amount: string;
     };
-    countryCode?: string;
-    currencyCode?: string;
-    supportedNetworks?: string[];
-    merchantCapabilities?: string[];
+    countryCode: string;
+    currencyCode: string;
+    supportedNetworks: string[];
+    merchantCapabilities: string[];
 
     billingContact?: any;
     shippingContact?: any;
@@ -44,6 +44,8 @@ export interface ApplePayPaymentRequest {
     requiredBillingContactFields?: any;
     requiredShippingContactFields?: any;
 }
+
+export type ApplePayPaymentRequestOptions = Partial<ApplePayPaymentRequest> & Pick<ApplePayPaymentRequest, 'total'>;
 
 export enum ApplePayStatusCodes {
     // The requested action succeeded.
@@ -165,7 +167,7 @@ export interface ApplePay {
      *   // { total: { }, countryCode: 'US', currencyCode: 'USD', merchantCapabilities: [ ], supportedNetworks: [ ] }
      *
      */
-    createPaymentRequest(paymentRequest: ApplePayPaymentRequest): ApplePayPaymentRequest;
+    createPaymentRequest(paymentRequest: ApplePayPaymentRequestOptions): ApplePayPaymentRequest;
 
     /**
      * Validates the merchant website, as required by ApplePaySession before payment can be authorized.     * - The canonical name for your store.
