@@ -32,6 +32,7 @@ export interface HostedFieldsField {
     minlength?: number | undefined;
     prefill?: string | undefined;
     rejectUnsupportedCards?: boolean | undefined;
+    supportedCardBrands?: Record<string, boolean>;
 }
 
 /**
